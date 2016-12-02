@@ -1,0 +1,90 @@
+@font-face {
+	font-family: 'bignoodletoo';
+	src: url(../fonts/bignoodletoo.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'koverwatch';
+	src: url(../fonts/koverwatch.ttf) format('truetype');
+}
+
+body {
+	background: url(../images/wallhaven-411345.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+}
+
+h1, h2 {
+	font-family: 'bignoodletoo';
+}
+
+h1 {
+	background-color: rgba(96, 88, 88, 0.3);
+	font-size: 45px;
+	color: #751313;
+}
+
+h2 {
+	font-size: 30px;
+	margin-bottom: 8px;
+}
+
+p {
+	font-family: 'koverwatch';
+	font-size: 25px;
+	color: #44096d;
+}
+
+.crystalImg {
+	width: 300px;
+	height: 250px;
+	margin: 35px;
+}
+
+#instructions {
+	background-color: rgba(96, 88, 88, 0.8);
+	max-width: 400px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 0px;
+}
+
+#game {
+	font-family: 'bignoodletoo';
+	color: white;
+	max-width: 400px;
+	margin-left: auto;
+	margin-right:auto;
+	position: relative;
+	padding: 10px 0px;
+}
+
+#targetNumberContainer, #currentNumberContainer {
+	float: left;
+	background-color: rgba(96, 88, 88, 0.8);
+	padding: 10px 15px;
+	margin: 0px 8px;
+}
+
+#currentNumberContainer {
+	float: right;
+}
+
+#numberTarget, #currentNum {
+	font-size: 35px;
+}
+
+#winContainer, #lossesContainer {
+	font-family: 'koverwatch';
+	font-size: 100px;
+	color: white;
+	display: inline-block;
+	margin: 0px 20px;
+	width: 180px;
+	padding-top: 10px;
+	background-color: rgba(96, 88, 88, 0.8);
+}
